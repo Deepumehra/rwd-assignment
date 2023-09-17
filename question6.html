@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question no 6</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: rgb(26, 25, 25);
+            color: white;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 370px;
+            margin-bottom: 0px;
+            margin-top: 250px;
+        }
+        
+        .item1{
+            /* padding: 90px 40px; */
+            margin: 90px 40px;
+            height: 100%;
+            width: 32%; 
+        }
+        .item1>h1{
+            font-size: 30px;
+            margin: 5px;
+        }
+        .item1>p{
+            font-size: 20px;
+            margin: 5px;
+            font-weight: 500;
+            color: rgb(142, 140, 140);
+        }
+        .item2{
+            width: 17%;
+            margin: 90px 0px;
+            height: 100%;
+        }
+        .item2>span{
+            display: block;
+            margin: 7px;
+            padding:5px;
+            color:rgb(142, 140, 140) ;
+            font-size: 20px;
+        }
+        .item3{
+            width: 17%;
+            margin: 90px 0px;
+            height: 100%;
+        }
+        .item3>span{
+            display: block;
+            margin: 7px;
+            padding:5px;
+            color:rgb(142, 140, 140) ;
+            font-size: 20px;
+        }
+        .item4{
+            width: 25%;
+            height: 100%;
+            margin: 90px 0px;
+            margin-left: 0px;
+            padding-left: 0px;
+        }
+        .item4>input{
+            margin: 10px;
+            width: 300px;
+            height: 40px;
+            padding-right: 10px;
+            margin-right: 5px;
+            padding: 5px 15px;
+        }
+        .item4>button{
+            margin: 10px;
+            width: 300px;
+            height: 50px;
+            font-size: 20px;
+            background-color: rgb(46, 160, 208);
+            color: white;
+            padding-right: 10px;
+            margin-right: 5px;
+        }
+        @media  screen and (max-width:800px) {
+                   
+            .container{
+                max-width: 800px;
+                display: block;
+                margin: 10px 50px;
+                height: auto;
+
+            }
+            .item1{
+                padding-top: 50px; ;
+                margin: 50px 100px;
+            }
+            .item>p{
+                padding-top: 20px;
+            }
+            .item2{
+                
+                margin: 50px 100px;
+            }
+            .item3{
+                margin: 50px 100px;
+            }
+            .item4{
+                margin: 50px 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">
+            <h1>One Card</h1>
+            <p>India's best metal credit card. Built with full-stack tech. Backed by the principles of simplicity, transparency, and giving back control to the user.</p>
+        </div>
+        <div class="item2">
+            <h1>Navigation</h1>
+            <span>Home</span>
+            <span>About us</span>
+            <span>Career</span>
+            <span>Offers</span>
+        </div>
+        <div class="item3">
+            <h1>Support</h1>
+            <span>F.A.Q</span>
+            <span>Cookies Policy</span>
+            <span>Terms of Service</span>
+            <span>Support</span>
+        </div>
+        <div class="item4">
+            <h1>Newsletter</h1>
+            <input type="text" placeholder="Your Email Id Here">
+            <button>Subscribe</button>
+        </div>
+    </div>
+</body>
+</html>
